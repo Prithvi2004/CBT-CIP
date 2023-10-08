@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: #ffffff;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 95%;
+    height: 65%;
+    
+}
+
+#btn {
+    background-color: #fb0066;
+}
+
+input[type=button] {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: #5029ff;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+#op{
+    background-color: #fb0000;
+}
+#op:hover{
+    background-color: #f38383;
+    cursor:grabbing;
+}
+
+
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+#num:hover{
+    background-color:aqua;
+    cursor: pointer;
+}
