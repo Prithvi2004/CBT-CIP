@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+.all{
+    border-right:2px solid #000;
+    border-left:2px solid #000;
+    border-bottom:2px solid #000;
+    border-top:2px solid #000;;
+  }
+  .goal{
+    padding-left: 20px;
+  }
+  .main{
+    text-align: center;
+    
+  }
+  body{
+
+          background-color: #ebffff;
+          font-family: system-ui;
+      }
+      .box{
+          background-color: #ebffff;
+          width:1000px;
+          max-width: 100%;
+          margin:auto;
+          padding:50px;
+          display: grid;
+         grid-template-columns: 35% 60%;
+         column-gap: 5%; 
+         row-gap: 30px;
+      
+      }
+      
+      .pic img{
+          width:200px;
+          height:200px;
+          object-fit: cover;
+          border-radius: 50%;
+      }
+      .pic{
+          display: flex;
+          justify-content: end;
+          align-items: center;
+      }
+      .name{
+          padding-left: 30px;
+          border-left:1px solid #000;
+      }
+      .name h1{
+          font-weight: 300;
+          font-size: xxx-large;
+          margin:0px 0 5px ;
+      }
+      .name h2{
+          font-weight: 250;
+          font-size: x-large;
+          margin:0px 0 5px ;
+      }
+      .name .role{
+          font-size: large;
+          margin:0;
+          font-weight: bold;
+          letter-spacing: 3px;
+      }
+      .edu{
+        display: block;
+        list-style-type: disc;      
+      }
+      .skill{
+        list-style-type: circle;  
+      }
+      #act{
+        list-style-type: square;  
+      }
+      .objective{
+        background-color: #c8c8c8;
+        padding-left: 10px;
+      }
+      .education{
+        background-color: #c8c8c8;
+        padding-left: 10px;
+      }
+      .skills{
+        background-color: #c8c8c8;
+        padding-left: 10px;
+      }
+      .activities{
+        background-color: #c8c8c8;
+        padding-left: 10px;
+      }
+      .icon {
+        position:absolute;
+        padding-right: 50px;
+        color: #000000;
+    }
+     address{
+      margin-left: 30px;
+    }
+    .home{
+      margin-left: 30px;
+    } 
